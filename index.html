@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Select Product</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f6f8;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+header{
+    background:#2c7be5;
+    color:white;
+    padding:20px;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+    padding:30px;
+    max-width:500px;
+    margin:auto;
+}
+
+.product{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    cursor:pointer;
+    transition:0.3s;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.product:hover{
+    transform:scale(1.03);
+    background:#eef4ff;
+}
+
+a{
+    text-decoration:none;
+    color:#333;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+Select Product That You Are Searching
+</header>
+
+<div class="container">
+
+<a href="nimbu.html">
+<div class="product">
+🍋 Nimbu Pani Premix
+</div>
+</a>
+
+<a href="poha-masala.html">
+<div class="product">
+🌶️ Poha Masala
+</div>
+</a>
+
+<a href="flattened-poha.html">
+<div class="product">
+🍚 Flattened Rice Poha
+</div>
+</a>
+
+<a href="sev.html">
+<div class="product">
+🥨 Sev
+</div>
+</a>
+
+</div>
+
+</body>
+</html>
