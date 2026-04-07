@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Select Product</title>
+
+<title>Naadbramha Products</title>
 
 <style>
 
@@ -15,13 +16,26 @@ body{
     text-align:center;
 }
 
+/* Header */
+
 header{
     background:#2c7be5;
     color:white;
-    padding:20px;
-    font-size:22px;
-    font-weight:bold;
+    padding:25px 10px;
 }
+
+header h1{
+    margin:0;
+    font-size:26px;
+}
+
+header p{
+    margin:5px 0 0 0;
+    font-size:14px;
+    opacity:0.9;
+}
+
+/* Container */
 
 .container{
     display:grid;
@@ -32,25 +46,38 @@ header{
     margin:auto;
 }
 
+/* Product Card */
+
 .product{
     background:white;
     padding:25px;
     border-radius:10px;
-    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
     cursor:pointer;
-    transition:0.3s;
+    transition:0.25s;
     font-size:18px;
     font-weight:bold;
 }
 
 .product:hover{
-    transform:scale(1.03);
+    transform:scale(1.04);
     background:#eef4ff;
 }
+
+/* Link */
 
 a{
     text-decoration:none;
     color:#333;
+}
+
+/* Footer */
+
+footer{
+    margin-top:30px;
+    padding:20px;
+    font-size:13px;
+    color:#666;
 }
 
 </style>
@@ -59,12 +86,13 @@ a{
 <body>
 
 <header>
-Select Product That You Are Searching
+<h1>Naadbramha Foods</h1>
+<p>Select the Product You Are Looking For</p>
 </header>
 
 <div class="container">
 
-<a href="nimbu.html">
+<a href="nimbu-pani.html">
 <div class="product">
 Nimbu Pani Premix
 </div>
@@ -76,9 +104,9 @@ Poha Masala
 </div>
 </a>
 
-<a href="flattened-poha.html">
+<a href="poha.html">
 <div class="product">
-Flattened Rice Poha
+Flattened Rice (Poha)
 </div>
 </a>
 
@@ -89,6 +117,11 @@ Sev
 </a>
 
 </div>
+
+<footer>
+Naadbramha Food & Beverages Pvt. Ltd. <br>
+Customer Care: +91 8308284746
+</footer>
 
 </body>
 </html>
